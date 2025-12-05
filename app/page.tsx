@@ -52,7 +52,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* FireXCheck App Card */}
             <Link
-              href="https://firexcheck.com"
+              href="https://www.firexcheck.com/"
               target="_blank"
               className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
