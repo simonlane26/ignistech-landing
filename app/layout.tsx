@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'IgnisTech Ltd - Innovative Fire Safety Solutions',
   description: 'IgnisTech Ltd specializes in cutting-edge fire safety technology and compliance solutions.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
