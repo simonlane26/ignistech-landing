@@ -77,19 +77,32 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Placeholder for future apps */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-slate-700 border-dashed">
+            {/* Door Compliance App Card */}
+            <Link
+              href="https://www.doorcompliance.co.uk"
+              target="_blank"
+              className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-slate-700 border-dashed hover:border-orange-500/50 transition-all duration-300 hover:scale-105"
+            >
               <div className="flex items-center mb-4">
-                <span className="text-4xl mr-4">🚀</span>
-                <h3 className="text-2xl font-bold text-slate-400">Coming Soon</h3>
+                <Image
+                  src="/Doorlogo.png"
+                  alt="Door Compliance Logo"
+                  width={60}
+                  height={60}
+                  className="mr-4 rounded-lg"
+                />
+                <h3 className="text-2xl font-bold text-slate-400 group-hover:text-orange-400 transition-colors">Coming Soon</h3>
               </div>
-              <p className="text-slate-500 mb-4">
-                More innovative fire safety solutions are on the way. Stay tuned for exciting new applications.
+              <p className="text-slate-500 group-hover:text-slate-400 transition-colors mb-4">
+                Comprehensive Fire Door Compliance Management system
               </p>
-              <div className="flex items-center text-slate-500 font-semibold">
+              <div className="flex items-center text-slate-500 group-hover:text-orange-400 font-semibold transition-colors">
                 Under Development
+                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
