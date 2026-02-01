@@ -118,7 +118,7 @@ export default function Home() {
                   height={60}
                   className="mr-4 rounded-lg shrink-0"
                 />
-                <h3 className="text-xl font-bold text-white">AirfieldOpsManager</h3>
+                <h3 className="text-xl font-bold text-white">Airfield Ops Manager</h3>
               </div>
               <p className="text-white/90 mb-4">
                 Airfield operations management and compliance solution
