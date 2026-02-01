@@ -62,9 +62,9 @@ export default function Home() {
                   alt="FireXCheck Logo"
                   width={60}
                   height={60}
-                  className="mr-4 rounded-lg"
+                  className="mr-4 rounded-lg shrink-0"
                 />
-                <h3 className="text-2xl font-bold text-white">FireXCheck</h3>
+                <h3 className="text-xl font-bold text-white">FireXCheck</h3>
               </div>
               <p className="text-white/90 mb-4">
                 Comprehensive fire safety inspection and compliance management platform.
@@ -89,9 +89,9 @@ export default function Home() {
                   alt="Door Compliance Logo"
                   width={60}
                   height={60}
-                  className="mr-4 rounded-lg"
+                  className="mr-4 rounded-lg shrink-0"
                 />
-                <h3 className="text-2xl font-bold text-white">DoorCompliance</h3>
+                <h3 className="text-xl font-bold text-white">DoorCompliance</h3>
               </div>
               <p className="text-white/90 mb-4">
                 Comprehensive Fire Door Compliance Management system
@@ -116,9 +116,9 @@ export default function Home() {
                   alt="AirfieldOpsManager Logo"
                   width={60}
                   height={60}
-                  className="mr-4 rounded-lg"
+                  className="mr-4 rounded-lg shrink-0"
                 />
-                <h3 className="text-2xl font-bold text-white">AirfieldOpsManager</h3>
+                <h3 className="text-xl font-bold text-white">AirfieldOpsManager</h3>
               </div>
               <p className="text-white/90 mb-4">
                 Airfield operations management and compliance solution
