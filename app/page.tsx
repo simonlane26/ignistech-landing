@@ -49,7 +49,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white mb-8 text-center">
             Our Applications
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* FireXCheck App Card */}
             <Link
               href="https://www.firexcheck.com/"
@@ -98,6 +98,33 @@ export default function Home() {
               </p>
               <div className="flex items-center text-white font-semibold">
                 Visit DoorCompliance
+                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </div>
+            </Link>
+
+            {/* Airfield POPS Manager App Card */}
+            <Link
+              href="https://www.airfieldpopsmanager.com"
+              target="_blank"
+              className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+            >
+              <div className="flex items-center mb-4">
+                <Image
+                  src="/airfieldpops-logo.png"
+                  alt="Airfield POPS Manager Logo"
+                  width={60}
+                  height={60}
+                  className="mr-4 rounded-lg"
+                />
+                <h3 className="text-2xl font-bold text-white">Airfield POPS Manager</h3>
+              </div>
+              <p className="text-white/90 mb-4">
+                Airfield POPS management and compliance solution
+              </p>
+              <div className="flex items-center text-white font-semibold">
+                Visit Airfield POPS Manager
                 <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
