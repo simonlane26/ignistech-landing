@@ -130,6 +130,32 @@ export default function Home() {
                 </svg>
               </div>
             </Link>
+            {/* IgnisCompetence App Card */}
+            <Link
+              href="https://www.igniscompetence.com"
+              target="_blank"
+              className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+            >
+              <div className="flex items-center mb-4">
+                <Image
+                  src="/IgnisCompetence.png"
+                  alt="IgnisCompetence Logo"
+                  width={60}
+                  height={60}
+                  className="mr-4 rounded-lg shrink-0"
+                />
+                <h3 className="text-xl font-bold text-white">IgnisCompetence</h3>
+              </div>
+              <p className="text-white/90 mb-4">
+                Fire safety competence management and training solution
+              </p>
+              <div className="flex items-center text-white font-semibold">
+                Visit Site
+                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </div>
+            </Link>
           </div>
         </div>
 
