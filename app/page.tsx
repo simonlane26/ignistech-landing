@@ -147,7 +147,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-white">IgnisCompetence</h3>
               </div>
               <p className="text-white/90 mb-4">
-                Fire safety competence management and training solution
+                A competence, quality assurance, and operational readiness platform
               </p>
               <div className="flex items-center text-white font-semibold">
                 Visit Site
