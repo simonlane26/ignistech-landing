@@ -54,6 +54,7 @@ export default function Home() {
             <Link
               href="https://www.firexcheck.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
@@ -81,6 +82,7 @@ export default function Home() {
             <Link
               href="https://www.doorcompliance.co.uk"
               target="_blank"
+              rel="noopener noreferrer"
               className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
@@ -108,6 +110,7 @@ export default function Home() {
             <Link
               href="https://www.airfieldopsmanager.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
@@ -134,6 +137,7 @@ export default function Home() {
             <Link
               href="https://www.igniscompetence.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="group bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
@@ -176,7 +180,7 @@ export default function Home() {
               ignistech999@gmail.com
             </a>
             <div className="text-slate-500 text-sm mt-6">
-              © 2025 IgnisTech Ltd. All rights reserved.
+              © 2026 IgnisTech Ltd. All rights reserved.
             </div>
           </div>
         </div>
